@@ -34,7 +34,7 @@ String? token = await FlutterDxRisk().getToken(appID: '');
 
 ```
 
-##### Android 接入注意点
+#### Android 接入注意点
 
 API 6.0或以上动态权限申请
 
@@ -52,9 +52,9 @@ await FlutterDxRisk().requestPermissions();
 
 ``` xml
 <manifest 
-    xmlns:tools="http://schemas.android.com/tools"> // manifest 里导入tools命名 
+    xmlns:tools="http://schemas.android.com/tools"> <!-- manifest 里导入tools命名  --> 
    <application
-        tools:replace="android:label"> // application 添加label冲突替换
+        tools:replace="android:label"> <!--  application 添加label冲突替换 --> 
     </application>
 </manifest>    
 
