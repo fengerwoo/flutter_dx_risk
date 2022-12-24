@@ -2,9 +2,9 @@
 
 🛡 顶象 Device fingerprint (UNIFYID®), Flutter version SDK, support Android, iOS
 
-The unique identification of the device is generated through the hardware, network, environment and other characteristic information of the user's Internet access device, which can effectively identify risks such as emulator, flashing, Root, jailbreak, hijacking and injection.
+>  The unique identification of the device is generated through the hardware, network, environment and other characteristic information of the user's Internet access device, which can effectively identify risks such as emulator, flashing, Root, jailbreak, hijacking and injection.
 
-At present, the black gray industry and the wool party have professional equipment ranches, and use terminal equipment to commit crimes in batches and repeatedly by using simulators, flashing machines and changing machines. Malicious crawling, false registration, account theft, fleece extraction, promotional cheating and other malicious behaviors in finance, e-commerce and other industries under the Internet scene
+> At present, the black gray industry and the wool party have professional equipment ranches, and use terminal equipment to commit crimes in batches and repeatedly by using simulators, flashing machines and changing machines. Malicious crawling, false registration, account theft, fleece extraction, promotional cheating and other malicious behaviors in finance, e-commerce and other industries under the Internet scene
 
 Dingxiang device fingerprint generates a unique device identification that is resistant to cracking by hackers through the hardware, network, environment and other device characteristic information of the user's Internet access device. As an important tool under the defense-in-depth risk control system, it can realize risk environment identification, risk detection and behavioral risk analysis on terminal equipment
 
