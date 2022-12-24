@@ -33,7 +33,7 @@ String? token = await FlutterDxRisk().getToken(appID: '');
 
 ```
 
-##### Notes on Android access
+#### Notes on Android access
 
 API 6.0 or above dynamic permission application
 
@@ -51,9 +51,9 @@ Error: [Manifest merger failed : Attribute application@label](https://blog.csdn.
 
 ``` xml
 <manifest 
-    xmlns:tools="http://schemas.android.com/tools"> // Import tools name in manifest 
+    xmlns:tools="http://schemas.android.com/tools"> <!-- Import tools name in manifest -->
    <application
-        tools:replace="android:label"> // application add label conflict replace
+        tools:replace="android:label"> <!--  application add label conflict replace -->
     </application>
 </manifest>    
 
