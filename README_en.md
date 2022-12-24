@@ -61,6 +61,10 @@ Error: [Manifest merger failed : Attribute application@label](https://blog.csdn.
 ```
 
 
+### Native SDK version
+Android：v6.1.6r.8f480124
+
+iOS：v6.1.4r.578bf7d1
 
 
 ### demo experience

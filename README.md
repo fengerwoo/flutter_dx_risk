@@ -61,6 +61,10 @@ await FlutterDxRisk().requestPermissions();
 ```
 
 
+### 原生SDK版本
+Android：v6.1.6r.8f480124
+
+iOS：v6.1.4r.578bf7d1
 
 
 ### Demo 体验
