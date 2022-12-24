@@ -28,12 +28,13 @@ dependencies:
 ``` dart
 import 'package:flutter_dx_risk/flutter_dx_risk.dart';
 
-// Pass in the AppID created by the DingXiang background, call to get the device fingerprint Token, you need to send the token to the server, and the server will get the device fingerprint, device risk and other information
+// Pass in the AppID created by the DingXiang background, call to get the device fingerprint Token, 
+// you need to send the token to the server, and the server will get the device fingerprint, device risk and other information
 String? token = await FlutterDxRisk().getToken(appID: '');
 
 ```
 
-#### Notes on Android access
+### Notes on Android access
 
 API 6.0 or above dynamic permission application
 

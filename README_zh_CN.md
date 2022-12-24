@@ -29,7 +29,8 @@ dependencies:
 ``` dart
 import 'package:flutter_dx_risk/flutter_dx_risk.dart';
 
-// 传入DingXiang 后台创建的AppID，调用获取设备指纹Token，您需要将token发送到服务端，服务端去获取设备指纹、设备风险等信息
+// 传入DingXiang 后台创建的AppID，调用获取设备指纹Token
+// 您需要将token发送到服务端，服务端去获取设备指纹、设备风险等信息
 String? token = await FlutterDxRisk().getToken(appID: '');
 
 ```
