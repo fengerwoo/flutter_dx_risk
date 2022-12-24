@@ -1,0 +1,65 @@
+group 'com.fenger.dx.risk.flutter_dx_risk'
+version '1.0'
+
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:7.1.2'
+    }
+}
+
+// 定义一个方法, 用于获取当前moudle的dir
+def getCurrentProjectDir() {
+    String result = ""
+    rootProject.allprojects { project ->
+        // 这里是flutter的约定, 插件的module名是插件名, :是gradle的约定. project前加:
+        if (project.properties.get("identityPath").toString() == ":flutter_dx_risk") {
+            result = project.properties.get("projectDir").toString()
+        }
+    }
+    return result
+}
+
+rootProject.allprojects {
+    def dir = getCurrentProjectDir() // 获取当前Moudle目录
+
+    repositories {
+        google()
+        mavenCentral()
+
+        maven { // 添加这个指向本地的仓库目录
+            url "$dir/aar"
+        }
+    }
+}
+
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 31
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    defaultConfig {
+        minSdkVersion 16
+    }
+
+    buildTypes {
+        release {
+            consumerProguardFiles 'proguard-rules.pro' // 顶象要求的混淆配置
+        }
+    }
+}
+
+dependencies {
+    // 顶象SDK（本地Maven库）
+    implementation "com.fenger.flutter_dx_risk:dx_risk:6.1.6r.8f480124"
+}
+
