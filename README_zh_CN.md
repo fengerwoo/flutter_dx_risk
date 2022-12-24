@@ -72,7 +72,7 @@ Demo APK下载：[app-release.apk](https://github.com/fengerwoo/flutter_dx_risk/
 
 
 ### 加入群聊
-扫码加我微信加入微信交流群（请备注：Flutter库easy_anim）
+扫码加我微信加入微信交流群（请备注：Flutter库flutter\_dx_risk）
 
 <img src="https://github.com/fengerwoo/easy_anim/raw/main/doc/assets/wechat_qr.jpg" width="200" >
 

@@ -1,7 +1,8 @@
 name: flutter_dx_risk
-description: flutter_dx_risk plugin
+description: DingXiang(顶象) Flutter plugin
 version: 1.0.6
-homepage: https://github.com/fengerwoo/flutter_dx_risk
+homepage: https://github.com/fengerwoo
+repository: https://github.com/fengerwoo/flutter_dx_risk
 
 environment:
   sdk: '>=2.18.2 <3.0.0'
